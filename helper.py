@@ -22,4 +22,5 @@ def extract_ebook_blurb(paid_product_blurb):
 
 
 if __name__ == "__main__":
+    paid_product_blurb = '''if you want our expert support to apply Instagram automation principles outlined in the ebook give us a shout! We have 5 slots left for 1to1 coaching sessions with Ian Shaw left. Use the code 'FITMATE40' for 40% off the standard price. 7-day full money back guarantee if not satisfied!'''
     print(extract_ebook_blurb(paid_product_blurb))
